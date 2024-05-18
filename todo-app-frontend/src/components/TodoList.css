@@ -1,0 +1,30 @@
+.todo-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.todo-table th, .todo-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.todo-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.todo-table td {
+    text-align: center;
+}
+
+.todo-item.fade-out {
+    animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        height: 0;
+    }
+}
